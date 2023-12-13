@@ -1,9 +1,9 @@
 #include "main.h"
 
-/*
+/**
  * num_print - Prints a signed integer to standard output
  * @args_list: Variable argument list containing the integer to print
- * 
+ *
  * Return: The number of characters printed (excluding null byte)
  */
 int num_print(va_list args_list)
@@ -39,11 +39,11 @@ int num_print(va_list args_list)
 }
 
 /**
- *  * unsignd_num_print - Prints an unsigned integer to standard output
- *   * @a: The unsigned integer to print
- *    *
- *     * Return: The number of characters printed (excluding null byte)
- *      */
+ * unsignd_num_print - Prints an unsigned integer to standard output
+ * @a: The unsigned integer to print
+ *
+ * Return: The number of characters printed (excluding null byte)
+ */
 int unsignd_num_print(unsigned int a)
 {
 	int mag_num;
@@ -67,5 +67,3 @@ int unsignd_num_print(unsigned int a)
 
 	return (len_num);
 }
-print_nums.c
-Displaying print_nums.c.gg=G
